@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/cm/print', (req, res) => {
-  res.json('print');
+  res.json('Codemobiles');
 });
 
 app.listen(PORT, HOST);
